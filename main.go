@@ -17,9 +17,9 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/internal-shared/protomappers"
-	sdkplugin "github.com/hashicorp/waypoint-plugin-sdk/internal/plugin"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/stdio"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/internal-shared/protomappers"
+	sdkplugin "github.com/itsopenmiso/openmiso-plugin-sdk/internal/plugin"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/internal/stdio"
 )
 
 //go:generate sh -c "protoc -I`go list -m -f \"{{.Dir}}\" github.com/hashicorp/protostructure` -I`go list -m -f \"{{.Dir}}\" github.com/hashicorp/opaqueany` -I ./thirdparty/proto/api-common-protos -I proto/ proto/*.proto --go_out=proto/gen/ --go-grpc_out=proto/gen/"

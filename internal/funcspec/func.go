@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/go-argmapper"
 	"github.com/hashicorp/opaqueany"
 
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	pb "github.com/itsopenmiso/openmiso-plugin-sdk/proto/gen"
 )
 
 // Func takes a FuncSpec and returns a *mapper.Func that can be called

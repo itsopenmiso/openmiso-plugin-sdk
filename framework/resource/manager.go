@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/opaqueany"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
+	pb "github.com/itsopenmiso/openmiso-plugin-sdk/proto/gen"
 )
 
 // Manager manages the lifecycle and state of one or more resources.

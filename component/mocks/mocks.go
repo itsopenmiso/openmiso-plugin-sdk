@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
 )
 
 // ForType returns an implementation of the given type that supports mocking.

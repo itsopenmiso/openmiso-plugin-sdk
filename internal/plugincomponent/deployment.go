@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 
 	"github.com/hashicorp/opaqueany"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	pb "github.com/itsopenmiso/openmiso-plugin-sdk/proto/gen"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/opaqueany"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
 )
 
 // Artifact implements component.Artifact.

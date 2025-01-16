@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/component/mocks"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal-shared/protomappers"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/testproto"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component/mocks"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/internal-shared/protomappers"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/internal/testproto"
+	pb "github.com/itsopenmiso/openmiso-plugin-sdk/proto/gen"
 )
 
 func init() {

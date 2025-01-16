@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
+	pb "github.com/itsopenmiso/openmiso-plugin-sdk/proto/gen"
 )
 
 // UIPlugin implements plugin.Plugin (specifically GRPCPlugin) for
