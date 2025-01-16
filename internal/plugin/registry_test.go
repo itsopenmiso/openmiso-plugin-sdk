@@ -3,8 +3,8 @@ package plugin
 import (
 	"testing"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/component/mocks"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component/mocks"
 )
 
 func TestRegistryDynamicFunc_validateAuth(t *testing.T) {

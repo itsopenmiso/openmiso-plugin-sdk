@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/itsopenmiso/openmiso-plugin-sdk/component"
 )
 
 type mix_ReleaseManager_Authenticator struct {

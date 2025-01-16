@@ -13,7 +13,7 @@ package component
 import (
 	"fmt"
 
-	proto "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	proto "github.com/itsopenmiso/openmiso-plugin-sdk/proto/gen"
 )
 
 //go:generate stringer -type=Type -linecomment
